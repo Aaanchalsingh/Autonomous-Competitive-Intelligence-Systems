@@ -1,2 +1,10 @@
 [build]
-  ignore = "exit 0"
+  base = "ai/frontend"
+  command = "npm run build"
+  publish = "ai/frontend/.next"
+
+[build.environment]
+  NODE_VERSION = "23"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
