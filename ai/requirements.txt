@@ -1,6 +1,5 @@
 fastapi
 uvicorn[standard]
-crewai
 google-genai
 chromadb==1.1.0
 playwright==1.43.0
