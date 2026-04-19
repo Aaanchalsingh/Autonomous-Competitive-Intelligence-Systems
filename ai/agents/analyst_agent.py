@@ -8,7 +8,6 @@ import json
 from datetime import datetime, timedelta
 from typing import Optional
 
-from crewai import Agent, Task
 from dotenv import load_dotenv
 
 load_dotenv()
