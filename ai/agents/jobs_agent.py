@@ -11,7 +11,6 @@ from typing import Optional
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-from crewai import Agent
 from dotenv import load_dotenv
 
 from config.competitors import COMPETITORS, STRATEGIC_JOB_SIGNALS
