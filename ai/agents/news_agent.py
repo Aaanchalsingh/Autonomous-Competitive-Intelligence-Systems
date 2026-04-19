@@ -8,7 +8,6 @@ from typing import Optional
 
 import feedparser
 import requests
-from crewai import Agent
 from dotenv import load_dotenv
 
 from config.competitors import COMPETITORS, NEWS_SOURCES, HIGH_PRIORITY_KEYWORDS
