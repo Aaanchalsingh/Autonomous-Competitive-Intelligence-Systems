@@ -11,7 +11,6 @@ from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
-from crewai import Agent, Task
 
 from config.competitors import COMPETITORS
 from storage.db import store_signal, get_last_snapshot, store_snapshot
