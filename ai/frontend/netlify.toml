@@ -1,6 +1,7 @@
 [build]
+  base = "ai/frontend"
   command = "npm run build"
-  publish = ".next"
+  publish = "ai/frontend/.next"
 
 [build.environment]
   NODE_VERSION = "23"

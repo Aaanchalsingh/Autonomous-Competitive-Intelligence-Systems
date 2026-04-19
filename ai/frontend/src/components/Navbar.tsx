@@ -40,14 +40,16 @@ export default function Navbar({ onScanComplete }: Props) {
   }
 
   return (
-    <header className="sticky top-0 z-30 bg-gray-950/80 backdrop-blur border-b border-gray-800">
+    <header className="sticky top-0 z-30 bg-gray-950/60 backdrop-blur-xl border-b border-gray-800/50">
       <div className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-3">
         {/* Logo */}
         <div className="flex items-center gap-2 mr-4">
-          <div className="w-7 h-7 rounded-lg bg-brand-600 flex items-center justify-center">
-            <Search size={14} className="text-white" />
+          <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-brand-500 to-purple-600 flex items-center justify-center shadow-lg shadow-brand-900/50">
+            <Search size={13} className="text-white" />
           </div>
-          <span className="font-bold text-white text-sm hidden sm:block">FintechIntel</span>
+          <span className="font-bold text-white text-sm hidden sm:block tracking-tight">
+            Fintech<span className="text-brand-400">Intel</span>
+          </span>
         </div>
 
         {/* Status msg */}
